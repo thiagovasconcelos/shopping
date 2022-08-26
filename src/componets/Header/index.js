@@ -5,10 +5,14 @@ export default function Header(props){
 return(
     
         <header className="Header">
+        <div className="Start">
         <img src={logo} alt="logo" />
         <h1>
             Rock Music Shopping 
         </h1>
+        </div>
+        
+        <input placeholder="Busca"/>
       </header>
    
 );
