@@ -1,6 +1,6 @@
 import React from "react";
 import "./style.css"
-export default function Filters(){
+export default function Filters(props){
     return(
        
         <div className="sub">
