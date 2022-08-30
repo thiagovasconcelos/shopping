@@ -6,7 +6,7 @@ return(
     
         <header className="Header">
         <div className="Start">
-        <img src={logo} alt="logo" />
+        <img className="logo"src={logo} alt="logo" />
         <h1>
             Rock Music Shopping 
         </h1>

@@ -5,10 +5,12 @@
     bottom: 0;
     width: 100vw;
     display: flex;
+    align-items: center;
 }
 a{
     color: #f2a73d;
     margin: 10px;
+    text-align: center;
     
 }
 img{
