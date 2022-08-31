@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Header from "../../componets/Header/index"
 import Filter from "../../componets/Filters/index"
 import Footer from "../../componets/Footer/index"
-
+import Produto from "../../componets/Produto";
 export default function Home(){
     const [produtos, setProdutos]= useState([])
 
@@ -16,7 +16,7 @@ export default function Home(){
         <>
            <Header/>
            <Filter/>
-           <main>{JSON.stringify(produtos)}</main>
+           <main><Produto/></main>
            <Footer/> 
         </>
     );
